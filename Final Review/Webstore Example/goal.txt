@@ -1,0 +1,16 @@
+show all the prodcut
+search bar -- > input = show result
+can add product to the cart using sesstion
+update cart
+
+
+1- retrive data from database
+	1.1 login
+	1.2 check the value using javascript
+
+2- Ajax show product in the page 
+
+3- onchange onload check values
+
+4- REST web Services
+
