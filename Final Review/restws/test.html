@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+	<script type="text/javascript" src="test.js"></script>
+</head>
+<body>
+<?php
+require_once("MobileRestHandler.php");
+require_once("SimpleRest.php");
+require_once("Mobile.php");
+?>
+<table>
+	<tr>
+	<td onclick="ShowAddProduct()" style="color: red; background-color: blue; margin: 20px;">Add prodcut<br></td>
+	<td onclick="ShowProducts()" style="color: green; background-color: pink; margin: 20px;">Show products</td>
+	<td><input type="text" placeholder="Enter number of the product" name="poductID" id="poductID" onchange="showProduct()"></td>
+	</tr>
+
+
+</table>
+
+<div id="result"></div>
+
+
+</body>
+</html>

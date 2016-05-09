@@ -19,7 +19,7 @@ function makeCall() {
 function CheckPassID() {
 	if(xmlhttp.readyState == 4|| xmlhttp.status == 200){
 		document.getElementById('error').innerHTML = xmlhttp.responseText;
-}
+	}
 }
 
 
