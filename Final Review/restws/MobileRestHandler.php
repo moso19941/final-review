@@ -42,7 +42,7 @@ class MobileRestHandler extends SimpleRest {
 	
 		$htmlResponse = "<table border='1'>";
 		foreach($responseData as $key=>$value) {
-    			$htmlResponse .= "<tr><td>". $key. "</td><td>". $value. "</td></tr>";
+    			$htmlResponse .= "<tr><td>". $key. "</td><td>". $value. "</td></tr><br>";
 		}
 		$htmlResponse .= "</table>";
 		return $htmlResponse;		
